@@ -9,6 +9,7 @@ import DefaultProps from "./DefaultProps";
 import WrapperCss from "./WrapperCss";
 import Input from "./Input";
 import ArrayProducts from "./ArrayProducts";
+import Controlled from "./controlled";
 
 
 export default function App() {
@@ -32,8 +33,9 @@ export default function App() {
       <WrapperCss>
         <form>Login Form</form>
       </WrapperCss> */}
-      <ArrayProducts />
-      <Input />
+      {/* <ArrayProducts />
+      <Input /> */}
+      <Controlled />
     </div>
   //     <Props  intro= {person}/>
   //     <hr />
